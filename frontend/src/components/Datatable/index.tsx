@@ -11,6 +11,7 @@ const DataTable = () => {
                         <th>Valor</th>
                     </tr>
                 </thead>
+
                 <tbody>
                     <tr>
                         <td>22/04/2021</td>
@@ -86,10 +87,6 @@ const DataTable = () => {
                 </tbody>
             </table>
         </div>
-
-
-
-
     );
 }
 
