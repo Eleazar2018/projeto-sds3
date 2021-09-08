@@ -1,30 +1,32 @@
 import DataTable from "components/Datatable";
 import Footer from "components/Footer";
-import NavBar from "components/NavBar";
 import BarChart from "components/BarChart";
 import DonutChart from "components/DonutChart";
+import NavBar from "components/NavBar";
 
 function App() {
   return (
     <>
       <NavBar />
+
       <div className="container">
         <h1 className="text-primary py-3">DashBoard de Vendas</h1>
 
         <div className="row px-3">
           <div className="col-sm-6">
-            <h5 className="text-center text-secondary">Total de Sucesso</h5>
+            <h5 className="text-center text-secondary">Taxa de sucesso(%)</h5>
             <BarChart />
           </div>
-        </div>
+        
 
-        <div className="col-sm-6">
-          <h5 className="text-center text-secondary">Totas Vendas</h5>
-          <DonutChart />
-        </div>
+          <div className="col-sm-6">
+            <h5 className="text-center text-secondary">Todas as Vendas</h5>
+            <DonutChart />
+          </div>
+       </div>
 
           <div className="py-3">
-            <h2 className="text-primary">Todas as Vendas</h2>
+            <h2 className="text-primary">Total Vendas</h2>
           </div>
 
         <DataTable />
