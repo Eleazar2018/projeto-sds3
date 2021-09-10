@@ -1,7 +1,6 @@
 package com.devsuperior.dsvendas.entities;
 
 import java.time.LocalDate;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -26,6 +25,7 @@ public class Sale {
 	@JoinColumn(name = "seller_id")
 	private Seller seller;
 
+	/*Construtor*/
 	public Sale() {
 		
 	}

@@ -2,7 +2,6 @@ package com.devsuperior.dsvendas.entities;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -31,7 +30,7 @@ public class Seller {
 		this.id = id;
 		this.name = name;
 	}
-
+/*Getter and Setters*/
 	public Long getId() {
 		return id;
 	}
@@ -47,7 +46,7 @@ public class Seller {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+/*gette*/
 	public List<Sale> getSales() {
 		return sales;
 	}
